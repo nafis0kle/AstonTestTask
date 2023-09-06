@@ -1,0 +1,16 @@
+server:
+  error:
+    include-message: always
+    include-exception: true
+    include-binding-errors: always
+
+  port: 8080
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
